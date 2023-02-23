@@ -54,6 +54,9 @@ header {
 .calculator__period p {
     margin: 0;
 }
+.calculator__button {
+    text-align: center;
+}
 
 .result {
     padding: 20px;
