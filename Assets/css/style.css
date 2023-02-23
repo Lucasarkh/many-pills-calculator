@@ -49,6 +49,8 @@ header {
 .calculator__period input {
     width: 60px;
     text-align: center;
+    border-radius: 15px 15px;
+    border: none;
 }
 
 .calculator__period p {
@@ -62,4 +64,5 @@ header {
     padding: 20px;
     display: inline-block;
     vertical-align: top;
+    background-color: rgb(92, 255, 201);
 }
