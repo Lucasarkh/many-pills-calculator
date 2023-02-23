@@ -21,6 +21,12 @@ header {
 
 .calculator {
     padding: 20px;
+    display: inline-block;
+}
+
+.calculator option {
+    text-align: center;
+    border-radius: 10px 10px;
 }
 
 .calculator__amount,
@@ -34,7 +40,23 @@ header {
     border-radius: 30px 30px;
 }
 
+.calculator__input {
+    margin-top: 10px;
+    display: inline-block;
+    width: 400px;
+}
+
 .calculator__period input {
     width: 60px;
     text-align: center;
+}
+
+.calculator__period p {
+    margin: 0;
+}
+
+.result {
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
 }
