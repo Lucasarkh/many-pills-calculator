@@ -47,7 +47,7 @@
             <div class="calculator__amount">
                 <p>Select the number of pills or capsules:</p>
                 <select id="comp" onchange="getValueComp();">
-                    <option value="0.25" selected>1/4</option>
+                    <option value="0.25">1/4</option>
                     <option value="0.5">1/2</option>
                     <option value="0.75">3/4</option>
                     <option value="1">1</option>
@@ -66,9 +66,8 @@
                     <option value="3">3 times a day</option>
                     <option value="4">4 times a day</option>
                     <option value="0.5">1 time every 2 days</option>
-                    <option value="1">2 times every 2 days</option>
-                    <option value="3">3 times every 2 days</option>
-                    <option value="0.5">4 times every 2 days</option>
+                    <option value="3">1 time every 3 days</option>
+ 
                 </select>
             </div>
 
@@ -82,20 +81,14 @@
             </div>
 
             <div class="calculator__button">
-                <button>Calculate!</button>
+                <button onclick="calculate()">Calculate!</button>
             </div>
         </section>
 
         <section class="result">
-
             <p>You will need:</p>
-            <h1 id="#resultado"></h1>
+            <p id="result">-</p>
             <p>pills or capsules!</p>
-
-
-
-
-
         </section>
 
     </main>
