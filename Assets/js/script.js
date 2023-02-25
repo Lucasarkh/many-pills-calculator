@@ -19,7 +19,7 @@ function getValueDays() {
 }
 
 function calculate() {
-   var multiply = parseFloat(getValueComp() * getValueInterval() * getValueDays());
+   var multiply = parseFloat((getValueComp() * getValueDays()) * getValueInterval());
    console.log(multiply)
    document.getElementById('result').innerHTML = multiply 
 }
