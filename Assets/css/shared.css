@@ -1,0 +1,10 @@
+/***************** FOOTER *****************/
+
+body {
+  background: rgb(137, 228, 255);
+}
+
+footer {
+  background: url(../img/bg-footer.png);
+  height: 200px;
+}

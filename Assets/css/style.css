@@ -1,68 +1,68 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Shantell Sans', cursive;
+  margin: 0;
+  padding: 0;
+  font-family: "Shantell Sans", cursive;
 }
 
 header {
-    background: rgb(0, 124, 146);
+  background: #00386d;
 }
 
 .nav__img {
-    width: 60px;
+  width: 60px;
 }
 
 .nav__links a {
-    font-size: 25px;
-    text-decoration: none;
-    color: black;
-    padding: 0 10px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
 }
 
 .calculator {
-    padding: 20px;
-    display: inline-block;
+  padding: 20px;
+  display: inline-block;
 }
 
 .calculator option {
-    text-align: center;
-    border-radius: 10px 10px;
+  text-align: center;
+  border-radius: 10px 10px;
 }
 
 .calculator__amount,
 .calculator__timeinterval,
 .calculator__period {
-    background-color: aquamarine;
-    width: 400px;
-    margin: 20px auto;
-    padding: 20px 0;
-    text-align: center;
-    border-radius: 30px 30px;
+  background-color: #00a8ec;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 30px 30px;
 }
 
 .calculator__input {
-    margin-top: 10px;
-    display: inline-block;
-    width: 400px;
+  margin-top: 10px;
+  display: inline-block;
+  width: 400px;
 }
 
 .calculator__period input {
-    width: 60px;
-    text-align: center;
-    border-radius: 15px 15px;
-    border: none;
+  width: 60px;
+  text-align: center;
+  border-radius: 15px 15px;
+  border: none;
 }
 
 .calculator__period p {
-    margin: 0;
+  margin: 0;
 }
 .calculator__button {
-    text-align: center;
+  text-align: center;
 }
 
 .result {
-    padding: 20px;
-    display: inline-block;
-    vertical-align: top;
-    background-color: rgb(92, 255, 201);
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(92, 255, 201);
 }
