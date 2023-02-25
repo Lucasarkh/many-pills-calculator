@@ -1,13 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Shantell Sans", cursive;
-}
-
-header {
-  background: #00386d;
-}
-
 .nav__img {
   width: 60px;
 }
@@ -15,7 +5,7 @@ header {
 .nav__links a {
   font-size: 25px;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 0 10px;
 }
 
@@ -32,12 +22,13 @@ header {
 .calculator__amount,
 .calculator__timeinterval,
 .calculator__period {
-  background-color: #00a8ec;
+  background: linear-gradient(46deg, #00a8ec 0%, #53ceff 100%);
   width: 400px;
   margin: 20px auto;
   padding: 20px 0;
   text-align: center;
   border-radius: 30px 30px;
+  box-shadow: 3px 5px rgb(0, 56, 70);
 }
 
 .calculator__input {
@@ -51,6 +42,8 @@ header {
   text-align: center;
   border-radius: 15px 15px;
   border: none;
+  border: 2px solid rgba(0, 92, 153, 0.315);
+  box-shadow: 1px 3px rgb(0, 56, 70);
 }
 
 .calculator__period p {
@@ -58,6 +51,22 @@ header {
 }
 .calculator__button {
   text-align: center;
+  margin-top: 50px;
+}
+
+.calculator__button button {
+  border-radius: 30px 30px;
+  padding: 10px 20px;
+  background-color: rgb(0, 101, 168);
+  color: white;
+  border: 3px solid #0097fc7c;
+  box-shadow: 3px 3px rgb(0, 56, 70);
+}
+
+.calculator__button button:hover {
+  background-color: rgb(0, 144, 240);
+  border: 3px solid #0136685e;
+  transition: 0.3s;
 }
 
 .result {
