@@ -12,8 +12,12 @@ header {
   background-size: cover;
 }
 
+main {
+  width: 90vw;
+  margin: 0 auto;
+}
+
 footer {
-  background: url(../img/bg-footer.png);
   height: 200px;
-  background-size: cover;
+  background-size: contain;
 }
