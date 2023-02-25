@@ -46,29 +46,29 @@
 
             <div class="calculator__amount">
                 <p>Select the number of pills or capsules:</p>
-                <select class="comp">
-                    <option id="comp1" value="0.25">1/4</option>
-                    <option id="comp2" value="option">1/2</option>
-                    <option id="comp3" value="option">3/4</option>
-                    <option id="comp4" value="option">1</option>
-                    <option id="comp5" value="option">2</option>
-                    <option id="comp6" value="option">3</option>
-                    <option id="comp7" value="option">4</option>
-                    <option id="comp8" value="option">5</option>
+                <select id="comp" onchange="getValueComp();">
+                    <option value="0.25" selected>1/4</option>
+                    <option value="0.5">1/2</option>
+                    <option value="0.75">3/4</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select>
             </div>
 
             <div class="calculator__timeinterval">
                 <p>Select the time interval: </p>
-                <select class="interval">
-                    <option id="onetimeaday" value="option">1 time a day</option>
-                    <option value="option">2 times a day</option>
-                    <option value="option">3 times a day</option>
-                    <option value="option">4 times a day</option>
-                    <option value="option">1 time every 2 days</option>
-                    <option value="option">2 times every 2 days</option>
-                    <option value="option">3 times every 2 days</option>
-                    <option value="option">4 times every 2 days</option>
+                <select id="interval" onchange="getValueInterval();">
+                    <option value="1">1 time a day</option>
+                    <option value="2">2 times a day</option>
+                    <option value="3">3 times a day</option>
+                    <option value="4">4 times a day</option>
+                    <option value="0.5">1 time every 2 days</option>
+                    <option value="1">2 times every 2 days</option>
+                    <option value="3">3 times every 2 days</option>
+                    <option value="0.5">4 times every 2 days</option>
                 </select>
             </div>
 
@@ -76,7 +76,7 @@
                 <p>Select the period of the treatment:</p>
 
                 <div class="calculator__input">
-                    <input type="number" placeholder="10">
+                    <input id="days" type="number" placeholder="10">
                     <p class="d-inline-block">days!</p>
                 </div>
             </div>
@@ -89,7 +89,7 @@
         <section class="result">
 
             <p>You will need:</p>
-            <h1>50</h1>
+            <h1 id="#resultado"></h1>
             <p>pills or capsules!</p>
 
 
@@ -104,6 +104,7 @@
 
 
     </footer>
-    
+
+    <script src="Assets/js/script.js"></script>    
 </body>
 </html>
