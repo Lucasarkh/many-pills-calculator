@@ -8,11 +8,12 @@ body {
 }
 
 header {
-  background: url(../img/bg-header.png);
-  height: 200px;
+  background: rgb(0, 160, 227);
+  background-size: cover;
 }
 
 footer {
   background: url(../img/bg-footer.png);
   height: 200px;
+  background-size: cover;
 }

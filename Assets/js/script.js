@@ -22,6 +22,10 @@ function calculate() {
   var multiply = parseFloat(
     getValueComp() * getValueDays() * getValueInterval()
   );
-  console.log(multiply);
+  if (isNaN(multiply)) {
+    multiply = "0";
+  }
   document.getElementById("result").innerHTML = multiply;
 }
+
+calculate();
