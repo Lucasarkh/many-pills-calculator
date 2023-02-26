@@ -23,7 +23,7 @@ function calculate() {
     getValueComp() * getValueDays() * getValueInterval()
   );
   if (isNaN(multiply)) {
-    multiply = "0";
+    multiply = null;
   }
   document.getElementById("result").innerHTML = multiply;
 }

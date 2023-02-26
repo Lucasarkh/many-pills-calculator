@@ -1,18 +1,20 @@
 /***************** FOOTER *****************/
 
 body {
-  background: rgb(137, 228, 255);
   margin: 0;
   padding: 0;
   font-family: "Shantell Sans", cursive;
 }
 
 header {
-  background: rgb(0, 160, 227);
+  background: rgb(0, 29, 41);
   background-size: cover;
+  position: fixed;
+  width: 100vw;
 }
 
 main {
+  padding-top: 40px;
   width: 90vw;
   margin: 0 auto;
 }
@@ -20,4 +22,15 @@ main {
 footer {
   height: 200px;
   background-size: contain;
+}
+
+.nav__img {
+  width: 40px;
+}
+
+.nav__links a {
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0 10px;
 }
