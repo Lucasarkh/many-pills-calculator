@@ -22,10 +22,29 @@ function calculate() {
   var multiply = parseFloat(
     getValueComp() * getValueDays() * getValueInterval()
   );
+
+  var alertMsg = document.getElementById("button-span");
+
   if (isNaN(multiply)) {
     multiply = null;
   }
+  
   document.getElementById("result").innerHTML = multiply;
-}
 
+  else if (multiply == null) {
+    alertMsg.addEventListener('click', myFunction {
+      alertMsg = "Selecione as quantidades!"
+      })
+
+    }
+
+
+
+
+
+}
 calculate();
+
+
+
+
