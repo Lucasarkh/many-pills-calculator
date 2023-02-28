@@ -29,14 +29,3 @@ function calculate() {
   document.getElementById("result").innerHTML = multiply;
 }
 
-/*function validate() {
-  var alertMsg = document.getElementById("button-span");
-  var button = document.getElementById("button");
-
-  if (isNaN(calculate.multiply())) {
-    function myFunction() {
-      alertMsg.innerHTML = "Selecione as quantidades!";
-    }
-    button.addEventListener("click", myFunction);
-  }
-}
