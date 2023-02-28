@@ -113,13 +113,15 @@
             class="col-12 col-lg-2 d-flex align-items-center justify-content-center"
           >
             <div class="calculator__button">
-              <button onclick="calculate()">Calcular!</button>
-              <span id="button-span"></span>
+              <button id="button" onclick="calculate(), validate()">
+                Calcular!
+              </button>
+              <span id="button-span">dfdf</span>
             </div>
           </div>
 
           <div
-            class="col-12 col-lg-4 result d-flex align-items-center justify-content-center"
+            class="col-12 col-lg-4 d-flex align-items-center justify-content-center result"
           >
             <div>
               <p id="result__fixed__text">Você vai precisar de:</p>

@@ -23,28 +23,20 @@ function calculate() {
     getValueComp() * getValueDays() * getValueInterval()
   );
 
-  var alertMsg = document.getElementById("button-span");
-
   if (isNaN(multiply)) {
     multiply = null;
   }
-  
   document.getElementById("result").innerHTML = multiply;
-
-  else if (multiply == null) {
-    alertMsg.addEventListener('click', myFunction {
-      alertMsg = "Selecione as quantidades!"
-      })
-
-    }
-
-
-
-
-
 }
-calculate();
 
+/*function validate() {
+  var alertMsg = document.getElementById("button-span");
+  var button = document.getElementById("button");
 
-
-
+  if (isNaN(calculate.multiply())) {
+    function myFunction() {
+      alertMsg.innerHTML = "Selecione as quantidades!";
+    }
+    button.addEventListener("click", myFunction);
+  }
+}

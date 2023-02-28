@@ -28,6 +28,12 @@
   box-shadow: 3px 5px rgba(0, 9, 37, 0.459);
 }
 
+.calculator__amount:hover,
+.calculator__timeinterval:hover,
+.calculator__period:hover {
+  background: rgba(0, 29, 56, 0.274);
+}
+
 .calculator__input {
   margin-top: 10px;
   display: inline-block;
@@ -79,6 +85,10 @@
   display: inline-block;
   vertical-align: top;
   background: rgba(0, 29, 56, 0.274);
+}
+
+.result:hover {
+  background: rgba(0, 18, 36, 0.274);
 }
 
 .result #result__fixed__text {
