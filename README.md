@@ -26,10 +26,10 @@ Principais pontos:
 
 ### Screenshots
 
-![](./screenshots/01.png)
-![](./screenshots/02.png)
-![](./screenshots/03.png)
-![](./screenshots/04.png)
+![](./screenshots/screenshot01.png)
+![](./screenshots/screenshot02.png)
+![](./screenshots/screenshot03.png)
+![](./screenshots/screenshot04.png)
 
 ### Links
 
@@ -76,8 +76,6 @@ function calculate() {
   document.getElementById("result").innerHTML = multiply;
 }
 ```
-
-
 
 ### Próximos passos para aprender
 
