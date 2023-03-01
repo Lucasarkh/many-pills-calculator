@@ -32,6 +32,8 @@ footer {
   width: 100vw;
   height: 10vh;
   color: white;
+  position: absolute;
+  bottom: 0;
 }
 
 footer p {
@@ -47,4 +49,17 @@ footer p {
   text-decoration: none;
   color: rgb(255, 255, 255);
   padding: 0 10px;
+}
+
+
+@media (max-width: 900px) {
+
+  footer {
+    background: rgba(128, 128, 128, 0.24);
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    position: relative
+  }
+  
 }
