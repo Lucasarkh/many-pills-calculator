@@ -26,7 +26,7 @@ Principais pontos:
 
 ### Screenshots
 
-"[](https://github.com/Lucasarkh/many-pills-calculator/blob/main/screenshots/Screenshot01.PNG)
+![](https://github.com/Lucasarkh/many-pills-calculator/blob/main/screenshots/Screenshot01.PNG)
 
 ### Links
 
