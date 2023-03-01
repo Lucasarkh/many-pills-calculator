@@ -1,4 +1,4 @@
-"[](https://github.com/Lucasarkh/many-pills-calculator/blob/main/favicon.png) # Many Pills Calculator
+![](https://github.com/Lucasarkh/many-pills-calculator/blob/main/favicon.png) # Many Pills Calculator
 
 A proposta foi criar uma calculadora de comprimidos para otimizar o tempo de atendimento de farmácias e hospitais humanos e veterinários.
 
