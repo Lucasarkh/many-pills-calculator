@@ -18,11 +18,12 @@ A proposta foi criar uma calculadora de comprimidos para otimizar o tempo de ate
 
 ### O desafio
 
-Principais pontos:
+Principais desafios a serem superados:
 
-- O projeto foi desenvolvido utilizando HTML5, CSS3, JavaScrip e o framework Bootstrap
-- A página contem elementos interativos utilizando a pseudo-classe hover.
+- Funcionalidades envolvendo javaScript.
+- Criação de elementos interativos utilizando a pseudo-classe hover.
 - Design agradável e chamativo.
+- utilização de classes Bootstrap.
 
 ### Screenshots
 
