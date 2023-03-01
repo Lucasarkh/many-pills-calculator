@@ -26,10 +26,10 @@ Principais pontos:
 
 ### Screenshots
 
-<img src=”/screenshots/screenshot01”>
-<img src=”/screenshots/screenshot02”>
-<img src=”/screenshots/screenshot03”>
-<img src=”/screenshots/screenshot04”>
+<img src=”screenshots/screenshot01”>
+<img src=”screenshots/screenshot02”>
+<img src=”screenshots/screenshot03”>
+<img src=”screenshots/screenshot04”>
 
 ### Links
 
