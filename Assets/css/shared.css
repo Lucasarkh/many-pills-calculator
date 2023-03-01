@@ -6,26 +6,36 @@ body {
   font-family: "Varela Round", sans-serif;
   background: url(../img/body-bg.jpg);
   background-size: cover;
-  height: 100vh;
+  height: auto;
+}
+.navbar {
+  background: rgba(128, 128, 128, 0.24);
+  color: white;
 }
 
-header {
-  background: rgba(128, 128, 128, 0.24);
-  position: fixed;
-  width: 100vw;
+.nav-item {
+  padding-top: 20px;
+}
+
+.nav-item:hover {
+  color: rgb(255, 166, 0);
 }
 
 main {
-  padding-top: 56px;
-  width: 90vw;
-  height: 90vh;
-  margin: 0 auto;
+  padding-top: 60px;
+  width: 100vw;
+  height: auto;
 }
 
 footer {
   background: rgba(128, 128, 128, 0.24);
   width: 100vw;
   height: 10vh;
+  color: white;
+}
+
+footer p {
+  margin: 0;
 }
 
 .nav__img {
@@ -38,6 +48,3 @@ footer {
   color: rgb(255, 255, 255);
   padding: 0 10px;
 }
-
-@media (max-width: 900px) {
-
