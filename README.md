@@ -26,10 +26,7 @@ Principais pontos:
 
 ### Screenshots
 
-<img src=”screenshots/screenshot01”>
-<img src=”screenshots/screenshot02”>
-<img src=”screenshots/screenshot03”>
-<img src=”screenshots/screenshot04”>
+"[](https://github.com/Lucasarkh/many-pills-calculator/blob/main/screenshots/Screenshot01.PNG)
 
 ### Links
 
