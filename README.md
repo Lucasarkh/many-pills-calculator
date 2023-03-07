@@ -34,7 +34,7 @@ Principais desafios a serem superados:
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://github.com/Lucasarkh/many-pills-calculator)
+- Live Site URL: [GitHub Pages](https://lucasarkh.github.io/many-pills-calculator/)
 
 ## Processo de criação
 
