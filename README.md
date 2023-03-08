@@ -44,6 +44,7 @@ Principais desafios a serem superados:
 - Framework Bootstrap
 - CSS customizado.
 - JavaScript Puro.
+- Versionado com Git e hospedado no GitHub Pages.
 
 ### O que eu aprendi
 
