@@ -27,10 +27,15 @@ Principais desafios a serem superados:
 
 ### Screenshots
 
-![](https://github.com/Lucasarkh/many-pills-calculator/blob/main/screenshots/Screenshot01.PNG)
-![](https://github.com/Lucasarkh/many-pills-calculator/blob/main/screenshots/Screenshot02.PNG)
-![](https://github.com/Lucasarkh/many-pills-calculator/blob/main/screenshots/Screenshot03.PNG)
-![](https://github.com/Lucasarkh/many-pills-calculator/blob/main/screenshots/Screenshot04.PNG)
+<p align="center"> Home page </p>
+<p align="center">
+  <img align="center" src="https://github.com/Lucasarkh/many-pills-calculator/blob/main/screenshots/home.png" width="800" title="home">
+</p>
+
+<p align="center"> Home page mobile </p>
+<p align="center">
+  <img align="center" src="https://github.com/Lucasarkh/many-pills-calculator/blob/main/screenshots/home_mobile.png" width="200" title="home mobile">
+</p>
 
 ### Links
 
