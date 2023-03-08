@@ -1,6 +1,6 @@
 # Many Pills Calculator <img src="https://github.com/Lucasarkh/many-pills-calculator/blob/main/favicon.png" style="width: 40px; height: 40px;">
 
-A proposta foi criar uma calculadora de comprimidos para otimizar o tempo de atendimento de farmácias e hospitais humanos e veterinários.
+No dia a dia muitos clientes de hospital veterinário, humano ou farmácias tem dúvidas sobre a quantidade de comprimidos que está pedindo na receita. Exemplo: Dar 1/4 de comprimido a cada 8hrs durante 13 dias, quantos serão necessários? O Objetivo foi criar uma ferramenta para facilitar a resolução deste problema do mundo real.
 
 ## Tópicos
 
