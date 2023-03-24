@@ -1,65 +1,30 @@
 /***************** FOOTER *****************/
 
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: "Varela Round", sans-serif;
+  box-shadow: border-box;
+}
+
+body {
   background: url(../img/body-bg.jpg);
   background-size: cover;
-  height: auto;
-}
-.navbar {
-  background: rgba(128, 128, 128, 0.24);
-  color: white;
+  height: 100vh;
+  position: relative;
 }
 
-.nav-item {
-  padding-top: 20px;
-}
-
-.nav-item:hover {
-  color: rgb(255, 166, 0);
+header {
+  position: absolute;
 }
 
 main {
-  padding-top: 40px;
-  width: 100vw;
-  height: auto;
+  height: 100vh;
 }
 
 footer {
-  background: rgba(128, 128, 128, 0.24);
-  width: 100vw;
-  height: 10vh;
-  color: white;
   position: absolute;
   bottom: 0;
+  color: white;
 }
 
-footer p {
-  margin: 0;
-}
-
-.nav__img {
-  width: 40px;
-}
-
-.nav__links a {
-  font-size: 25px;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  padding: 0 10px;
-}
-
-
-@media (max-width: 900px) {
-
-  footer {
-    background: rgba(128, 128, 128, 0.24);
-    width: 100vw;
-    height: 10vh;
-    color: white;
-    position: relative
-  }
-  
-}
